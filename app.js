@@ -28,8 +28,8 @@ async function getISS() {
     //     firstTime = false;
     // }
 
-    document.getElementById('lat').textContent = latitude;
-    document.getElementById('lon').textContent = longitude;
+    document.getElementById('lat').textContent = latitude.toFixed(2);
+    document.getElementById('lon').textContent = longitude.toFixed(2);
 }
 
 getISS()
